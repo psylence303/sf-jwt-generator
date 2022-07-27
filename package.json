@@ -1,0 +1,26 @@
+{
+  "name": "sf-jwt-generator",
+  "version": "1.0.0",
+  "description": "SalesForce OAuth token generator",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Artem Levik",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "tsup": "^6.2.0",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": [
+      "esnext"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
